@@ -13,7 +13,9 @@
 <hr>
 
 ![image](https://user-images.githubusercontent.com/81916648/134776219-4481bbde-11da-42c7-bf1a-4c7e522822cc.png)
-(기존의 Tomcat이 아닌, Netty로 동작하는 것을 알 수 있음)
+<br>
+(기존의 Tomcat이 아닌, Netty로 동작)
+
 
 - Netty 서버(비동기 서버)
   - 스프링 전 버전과 다르게 컨텍스트 스위칭이 없어서 속도가 빠름
