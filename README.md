@@ -12,6 +12,9 @@
 ### :white_check_mark: 스프링 5.0
 <hr>
 
+![image](https://user-images.githubusercontent.com/81916648/134776219-4481bbde-11da-42c7-bf1a-4c7e522822cc.png)
+(기존의 Tomcat이 아닌, Netty로 동작하는 것을 알 수 있음)
+
 - Netty 서버(비동기 서버)
   - 스프링 전 버전과 다르게 컨텍스트 스위칭이 없어서 속도가 빠름
   - 컨텍스트 스위칭이란 요청들을 동시에 처리하기 위해 쉽게 말하면 시간을 요청마다 분배해주는데(Time Slicing) 이 시간 단위로 요청들을 처리하는 것
