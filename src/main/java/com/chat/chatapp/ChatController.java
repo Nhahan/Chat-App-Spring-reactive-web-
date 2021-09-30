@@ -14,7 +14,7 @@ public class ChatController {
 
     private final ChatRepository chatRepository;
 
-    @GetMapping(value = "/serder/{sender}/receiver/{receiver}", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @GetMapping(value = "/sender/{sender}/receiver/{receiver}", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public Flux<Chat> getMsg(@PathVariable String sender, @PathVariable String receiver) {
         return chatRepository.findBySender(sender, receiver)
                 .subscribeOn(Schedulers.boundedElastic());
