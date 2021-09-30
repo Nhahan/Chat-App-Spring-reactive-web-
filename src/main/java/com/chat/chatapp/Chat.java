@@ -17,4 +17,8 @@ public class Chat {
     private String receiver;
 
     private LocalDateTime createdAt;
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
 }
