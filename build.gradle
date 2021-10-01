@@ -25,9 +25,6 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'io.projectreactor:reactor-test'
-
-    // 타임리프
-    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 }
 
 test {
